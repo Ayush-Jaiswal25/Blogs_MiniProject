@@ -1,0 +1,51 @@
+.h1-topic{
+    height: 10%;
+    width: 100%;
+    border: 2px solid black;
+    text-align: center;
+    background-color: rgb(26, 62, 62);
+}
+h1{
+    color: white;
+}
+.btn-cont{
+    background-color: rgb(126, 170, 170);
+    margin-top: 2rem;
+    border: 2px solid black;
+}
+.create{
+    margin-top: 0.5rem;
+    padding: 0.4rem 1.4rem;
+    border-radius: 7px;
+    font-size: large;
+    font-weight: 900;
+}
+form .create{
+    margin-left: 5rem;
+}
+.create:hover{
+    box-shadow: 2px 2px 7px black;
+}
+.create a{
+    text-decoration: none; 
+}
+.full-cont{
+    height: 60vh;
+    width: 100%;
+    margin-top: 0.5rem;
+}
+.semi-cont{
+    background-color: white;
+    position: relative;
+    left: 5rem;
+    height: 10rem;
+    width: 80%;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+div h2{
+    margin-left: 0.4rem;
+}
+#D-btn{
+    margin-left: 0.4rem;
+}

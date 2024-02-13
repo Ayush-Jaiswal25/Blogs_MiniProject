@@ -1,0 +1,35 @@
+.h1-topic{
+    height: 10%;
+    width: 100%;
+    border: 2px solid black;
+    text-align: center;
+    background-color: rgb(26, 62, 62);
+}
+.h1-topic h1{
+    color: white;
+}
+.form-full{
+
+    width: 100%;
+    border: 2px solid black;
+    margin-top: 5px;
+    background-color: rgb(126, 170, 170);
+}
+textarea{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    display: block;
+    border-radius: 7px;
+    border: 2px solid black;
+}
+.create{
+    margin:1rem 2rem;
+    padding: 0.4rem 1.4rem;
+    border-radius: 7px;
+    font-size: large;
+    font-weight: 900;
+    
+}
+.create:hover{
+    box-shadow: 2px 2px 7px black;
+}

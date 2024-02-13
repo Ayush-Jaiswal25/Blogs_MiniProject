@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloggers Day: Home</title>
+    <link rel="stylesheet" href="/public/home.css">
+    <link rel="icon" href="./image/icon.png">
+</head>
+<body>
+  <div class="h1-div">
+     <h1>One Blog a Day keep your sadness away.</h1>
+  </div>
+       
+  <div class="btn_cont">
+    <button  class="create"><a href="http://localhost:8080/blogs/new">Create a Blog</a></button>    
+    <div class="content">
+
+        <% for(arry of alldata) {%>
+            <div class="single-content">
+                <div class="id-T-B">
+                <h4>Name: <%=arry.Name %></h4>
+
+                <h2>Topic: <%=arry.Topic %></h2>
+                <h3><%=arry.Blog %></h3>
+            </div>
+                <button id="open-blog" class="create"><a id="A" href="http://localhost:8080/blogs/<%=arry._id %>">Open Blog</a></button>
+            </div>
+        <%}%>
+               
+            
+    </div>
+  </div>
+</body>
+</html>

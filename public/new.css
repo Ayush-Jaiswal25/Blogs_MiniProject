@@ -1,0 +1,66 @@
+.h2-div{
+    height: 10%;
+    width: 100%;
+    border: 2px solid black;
+    text-align: center;
+    background-color: rgb(26, 62, 62);
+}
+.h2-div h2{
+    color: white;
+}
+
+.form-full{
+
+    width: 100%;
+    border: 2px solid black;
+    margin-top: 5px;
+    background-color: rgb(126, 170, 170);
+}
+div label{
+    font-size: x-large;
+    font-weight: 900;
+}
+input{
+    border: 2px solid black;
+    border-radius: 7px;
+    padding: 8px 25px;
+}
+form{
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+}
+.form-topic{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.form-topic input{
+    position: relative;
+    left: 3.2rem;
+}
+textarea{
+    display: block;
+    border-radius: 7px;
+    border: 2px solid black;
+}
+#submit{
+    margin-left:0.1rem;
+}
+
+#go-back{
+    margin: 0.5rem 2rem;   
+}
+.create{
+    margin-left: 0.4rem;
+    margin-top: 0.5rem;
+    padding: 0.4rem 1.4rem;
+    border-radius: 7px;
+    font-size: large;
+    font-weight: 900;
+    
+}
+.create:hover{
+    box-shadow: 2px 2px 7px black;
+}
+.create a{
+    text-decoration: none; 
+}

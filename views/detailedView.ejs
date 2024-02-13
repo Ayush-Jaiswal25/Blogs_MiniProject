@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail</title>
+    <link rel="stylesheet" href="/public/detailedView.css">
+</head>
+<body>
+    <div class="h1-topic">
+        <h1><%= userID.Topic %></h1>
+    </div>
+
+   <div class="btn-cont">
+        <form method="post" action="/blogs/<%= userID._id %>?_method=DELETE">
+            <button class="create"><a>Delete post</a></button>
+        </form>
+    
+        <div class="full-cont">
+            <div class="semi-cont">
+                <h2><%= userID.Blog %></h2>
+
+            <button id="D-btn" class="create"><a href="http://localhost:8080/blogs">Back</a></button>
+            <button id="D-btn" class="create"><a href="http://localhost:8080/blogs/<%=userID._id%>/edit">Edit</a></button>
+            </div>
+        </div>
+   </div>
+</body>
+</html>

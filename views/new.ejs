@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/new.css">
+    <title>Create a new Blog</title>
+</head>
+<body>
+    <div class="h2-div">
+        <h2>Creat new Blog</h2>
+    </div>
+
+   <div class="form-full">
+      <form method="post", action="/blogs">
+        <div class="form-name">
+          <label for="name">Full Name: </label>
+          <input type="text" name="Data[Name]" id="name" placeholder="Write your Name">
+        </div>
+
+        <div class="form-topic">
+          <label for="topic">Topic: </label>
+          <input type="text" name="Data[Topic]" id="topic" placeholder="Write the Topic">
+        </div>
+
+        <textarea name="Data[Blog]" rows="13" cols="70" placeholder="Write Blog Here!..."></textarea>
+    
+        <button id="submit" class="create">Submit</button>   
+       
+      </form>
+      <button id="go-back" class="create "><a href="http://localhost:8080/blogs">Go Back</a></button>
+    </div>
+   
+    
+</body>
+</html>

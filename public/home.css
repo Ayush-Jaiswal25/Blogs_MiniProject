@@ -1,0 +1,52 @@
+.h1-div{
+    height: 10%;
+    width: 100%;
+    border: 2px solid black;
+    text-align: center;
+    color: white;
+    background-color: rgb(26, 62, 62);
+}
+.btn_cont{
+    width: 100%;
+    border: 2px solid black;
+    margin-top: 5px;
+    background-color: rgb(126, 170, 170);
+}
+.create{
+    margin-left: 0.4rem;
+    margin-top: 0.5rem;
+    padding: 0.4rem 1.4rem;
+    border-radius: 7px;
+    font-size: large;
+    font-weight: 900;
+    background-color: white;
+}
+.create:hover{
+    box-shadow: 2px 2px 7px black;
+}
+.create a{
+    text-decoration: none; 
+}
+.content{
+    margin-bottom: 0.5rem;
+    background-color: rgb(126, 170, 170);
+}
+.single-content{
+    margin-left: 0.4rem;
+    margin-top: 0.5rem;
+    border-radius: 7px;
+    height: 35%;
+    width: 80%;
+    border: 2px solid black;
+    background-color: white;
+}
+.id-T-B{
+    margin-left: 0.4rem;
+}
+#A{
+    color: black;
+}
+#open-blog{
+    margin-bottom:0.5rem ;
+    background-color:rgb(126, 170, 170) ;
+}

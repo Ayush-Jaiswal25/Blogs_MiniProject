@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/edit.css">
+    <title>Edit Blog</title>
+</head>
+<body>
+    <div class="h1-topic">
+        <h1><%= userID.Topic %></h1>
+    </div>
+   
+    <div class="form-full">
+        <form method="post" action="/blogs/<%=userID._id%>?_method=PATCH">
+            <textarea name="Data[Blog]" rows="13" cols="70"><%=userID.Blog%></textarea>
+            <button class="create">Submit</button>
+        </form>
+        
+    </div>
+</body>
+</html>

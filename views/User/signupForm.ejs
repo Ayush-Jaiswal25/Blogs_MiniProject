@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs - Sign Up</title>
+    <link rel="stylesheet" href="/public/home.css">
+
+    <style>
+        body{
+            background-color: rgb(126, 170, 170);
+            display: flex;
+            justify-content: center;
+        }
+        .contont{
+            border-radius: 1rem;
+            background-color: white;
+            position: relative;
+            top: 12rem;
+            display: flex;
+            justify-content: center;
+            height: 10rem;
+            width: 50%;
+            border: 2px black solid;
+        }
+        .contont:hover{
+            box-shadow: 2px 2px 7px black;
+        }
+        .contont h1{
+            position: relative;
+            left: 2.5rem;
+        }
+        #bt{
+            position: relative;
+            top: 5rem;
+            right: 8rem;
+        }
+    </style>
+</head>
+<body>
+   <div class="contont">
+    <h1>Sign Up to Blogs</h1>
+
+    <form method="GET" action="http://localhost:8080/signup">
+        <button id="bt" class="create">Signup</button>
+    </form>
+   </div>
+
+</body>
